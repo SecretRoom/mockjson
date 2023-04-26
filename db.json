@@ -1,5 +1,8 @@
 {
   "users": [
-    { name: "admin", psw: "1104"},
+    { 
+      "name": "admin",
+      "psw": "1104" 
+    },
   ]
 }
