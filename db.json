@@ -1,10 +1,8 @@
 {
-  "profile": [
-    {
-      "id": 1,
-      "name": "Nikolay",
-      "login": "nb",
-      "psw": "1104"
-    },
-  ],
+  "profile": {
+    "id": 1,
+    "name": "Nikolay",
+    "login": "nb",
+    "psw": "1104"
+  },
 }
