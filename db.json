@@ -9,193 +9,215 @@
   ],
   "dashboards": [
     {
-      "title": "Любители кошачьих",
-      "chartType": 1,
       "id": 1,
-      "items":[
-        { "name": "Не держат", "value": { "кот": 172, "кошка": 130 } },
-        { "name": "Хотят завести", "value": { "кот": 21, "кошка": 20 } },
-        { "name": "Держат", "value": { "кот": 40, "кошка": 35 } },
-        { "name": "Держат неcколько", "value": { "кот": 4, "кошка": 10 } }
-      ]
-    },
-    {
-      "title":"Распределение количества кошек по годам рождения",
-      "chartType": 3,
-      "id": 2,
-      "items": [
+      "charts": [
         {
-          "name":"2013",
-          "value":10
+          "title": "Любители кошачьих",
+          "chartType": 1,
+          "id": 1,
+          "items":[
+            { "name": "Не держат", "value": { "кот": 172, "кошка": 130 } },
+            { "name": "Хотят завести", "value": { "кот": 21, "кошка": 20 } },
+            { "name": "Держат", "value": { "кот": 40, "кошка": 35 } },
+            { "name": "Держат неcколько", "value": { "кот": 4, "кошка": 10 } }
+          ]
         },
         {
-          "name":"2003",
-          "value":5
+          "title":"Распределение количества кошек по годам рождения",
+          "chartType": 3,
+          "id": 2,
+          "items": [
+            {
+              "name":"2013",
+              "value":10
+            },
+            {
+              "name":"2003",
+              "value":5
+            },
+            {
+              "name":"2012",
+              "value":12
+            },
+            {
+              "name":"2001",
+              "value":1
+            },
+            {
+              "name":"2000",
+              "value":1
+            },
+            {
+              "name":"2010",
+              "value":5
+            },
+            {
+              "name":"2008",
+              "value":4
+            },
+            {
+              "name":"2011",
+              "value":6
+            },
+            {
+              "name":"1996",
+              "value":1
+            },
+            {
+              "name":"2009",
+              "value":3
+            },
+            {
+              "name":"2005",
+              "value":3
+            },
+            {
+              "name":"1999",
+              "value":3
+            },
+            {
+              "name":"2007",
+              "value":2
+            },
+            {
+              "name":"2004",
+              "value":1
+            }
+          ]
         },
         {
-          "name":"2012",
-          "value":12
-        },
-        {
-          "name":"2001",
-          "value":1
-        },
-        {
-          "name":"2000",
-          "value":1
-        },
-        {
-          "name":"2010",
-          "value":5
-        },
-        {
-          "name":"2008",
-          "value":4
-        },
-        {
-          "name":"2011",
-          "value":6
-        },
-        {
-          "name":"1996",
-          "value":1
-        },
-        {
-          "name":"2009",
-          "value":3
-        },
-        {
-          "name":"2005",
-          "value":3
-        },
-        {
-          "name":"1999",
-          "value":3
-        },
-        {
-          "name":"2007",
-          "value":2
-        },
-        {
-          "name":"2004",
-          "value":1
+          "title": "Породы кошек",
+          "id": 3,
+          "chartType": 2,
+          "items":[
+            { 
+              "name": "Беспородная",
+              "value": {
+                "кот": 13,
+                "кошка": 20
+              },
+              "info": {
+                "type": "photo",
+                "url": "http://habrastorage.org/storage2/90e/284/632/90e2846328f747b025a154ff38e2d465.jpg"
+              }
+            },
+            { 
+              "name": "Британец",
+              "value": {
+                "кот": 5,
+                "кошка": 7
+              },
+              "info": {
+                "type": "photo",
+                "url": "http://habrastorage.org/storage2/298/47a/a61/29847aa61fdeb493c52da7c869cd8a20.jpg"
+              }
+            },
+            { 
+              "name": "Персидская",
+              "value": {
+                "кот": 2,
+                "кошка": 9
+              },
+              "info": {
+                "type": "photo",
+                "url": "http://habrastorage.org/storage2/606/1ef/827/6061ef827554129fa0bc34113f2d1e49.jpg"
+              }
+            },
+            { 
+              "name": "Сиамская",
+              "value": {
+                "кот": 3,
+                "кошка": 2
+              },
+              "info": {
+                "type": "photo",
+                "url": "http://habrastorage.org/storage2/b1f/e1f/a10/b1fe1fa10fce984499de28ea5af8a54a.jpg"
+              }
+            },
+            { 
+              "name": "Мейн-кун",
+              "value": {
+                "кот": 8,
+                "кошка": 3
+              },
+              "info": {
+                "type": "photo",
+                "url": "http://habrastorage.org/storage2/dc6/da7/908/dc6da790856b1deef00a2abfe9beda20.jpg"
+              }
+            },
+            { 
+              "name": "Шотландская",
+              "value": {
+                "кот": 10,
+                "кошка": 15
+              },
+              "info": {
+                "type": "photo",
+                "url": "http://habrastorage.org/storage2/81d/92c/c56/81d92cc56a6f9195c9586cf7e7efb7f7.jpg"
+              }
+            },
+            { 
+              "name": "Манчкин",
+              "value": {
+                "кот": 1,
+                "кошка": 2
+              },
+              "info": {
+                "type": "photo",
+                "url": "http://habrastorage.org/storage2/fb4/87a/c00/fb487ac0076e0c7fb49ba25857c25820.jpg"
+              }
+            },
+            { 
+              "name": "Русская",
+              "value": {
+                "кот": 2,
+                "кошка": 7
+              },
+              "info": {
+                "type": "photo",
+                "url": "http://habrastorage.org/storage2/235/3b4/799/2353b479907c48b841352320e8001157.jpg"
+              }
+            },
+            { 
+              "name": "Ангорская",
+              "value": {
+                "кот": 1,
+                "кошка": 4
+              },
+              "info": {
+                "type": "photo",
+                "url": "http://habrastorage.org/storage2/e4b/59d/366/e4b59d366ffa361540efc1ad3cc433d4.jpg"
+              }
+            },
+            { 
+              "name": "Тайская",
+              "value": {
+                "кот": 2,
+                "кошка": 5
+              },
+              "info": {
+                "type": "photo",
+                "url": "http://habrastorage.org/storage2/174/665/e2c/174665e2cd77a3e99f0d7caf3ebadfcf.jpg"
+              }
+            }
+          ]
         }
       ]
-    },
+    }, 
     {
-      "title": "Породы кошек",
-      "id": 3,
-      "chartType": 2,
-      "items":[
-        { 
-          "name": "Беспородная",
-          "value": {
-            "кот": 13,
-            "кошка": 20
-          },
-          "info": {
-            "type": "photo",
-            "url": "http://habrastorage.org/storage2/90e/284/632/90e2846328f747b025a154ff38e2d465.jpg"
-          }
+      "id": 2,
+      "charts": [
+        {
+          "title": "Количество кошек в мире",
+          "chartType": 4,
+          "id": 1,
+          "value": 600000000
         },
-        { 
-          "name": "Британец",
-          "value": {
-            "кот": 5,
-            "кошка": 7
-          },
-          "info": {
-            "type": "photo",
-            "url": "http://habrastorage.org/storage2/298/47a/a61/29847aa61fdeb493c52da7c869cd8a20.jpg"
-          }
-        },
-        { 
-          "name": "Персидская",
-          "value": {
-            "кот": 2,
-            "кошка": 9
-          },
-          "info": {
-            "type": "photo",
-            "url": "http://habrastorage.org/storage2/606/1ef/827/6061ef827554129fa0bc34113f2d1e49.jpg"
-          }
-        },
-        { 
-          "name": "Сиамская",
-          "value": {
-            "кот": 3,
-            "кошка": 2
-          },
-          "info": {
-            "type": "photo",
-            "url": "http://habrastorage.org/storage2/b1f/e1f/a10/b1fe1fa10fce984499de28ea5af8a54a.jpg"
-          }
-        },
-        { 
-          "name": "Мейн-кун",
-          "value": {
-            "кот": 8,
-            "кошка": 3
-          },
-          "info": {
-            "type": "photo",
-            "url": "http://habrastorage.org/storage2/dc6/da7/908/dc6da790856b1deef00a2abfe9beda20.jpg"
-          }
-        },
-        { 
-          "name": "Шотландская",
-          "value": {
-            "кот": 10,
-            "кошка": 15
-          },
-          "info": {
-            "type": "photo",
-            "url": "http://habrastorage.org/storage2/81d/92c/c56/81d92cc56a6f9195c9586cf7e7efb7f7.jpg"
-          }
-        },
-        { 
-          "name": "Манчкин",
-          "value": {
-            "кот": 1,
-            "кошка": 2
-          },
-          "info": {
-            "type": "photo",
-            "url": "http://habrastorage.org/storage2/fb4/87a/c00/fb487ac0076e0c7fb49ba25857c25820.jpg"
-          }
-        },
-        { 
-          "name": "Русская",
-          "value": {
-            "кот": 2,
-            "кошка": 7
-          },
-          "info": {
-            "type": "photo",
-            "url": "http://habrastorage.org/storage2/235/3b4/799/2353b479907c48b841352320e8001157.jpg"
-          }
-        },
-        { 
-          "name": "Ангорская",
-          "value": {
-            "кот": 1,
-            "кошка": 4
-          },
-          "info": {
-            "type": "photo",
-            "url": "http://habrastorage.org/storage2/e4b/59d/366/e4b59d366ffa361540efc1ad3cc433d4.jpg"
-          }
-        },
-        { 
-          "name": "Тайская",
-          "value": {
-            "кот": 2,
-            "кошка": 5
-          },
-          "info": {
-            "type": "photo",
-            "url": "http://habrastorage.org/storage2/174/665/e2c/174665e2cd77a3e99f0d7caf3ebadfcf.jpg"
-          }
+        {
+          "title": "Количество кошек в России",
+          "chartType": 4,
+          "id": 1,
+          "value": 40800000
         }
       ]
     }
