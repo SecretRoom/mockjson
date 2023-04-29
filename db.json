@@ -5,6 +5,12 @@
       "login": "nb",
       "psw": "1104",
       "name": "Nikolay"
+    },
+    {
+      "id": 2,
+      "login": "admin",
+      "psw": "admin",
+      "name": "Admin"
     }
   ],
   "dashboards": [
